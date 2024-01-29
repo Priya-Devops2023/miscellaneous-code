@@ -24,7 +24,7 @@ resource "aws_instance" "prometheus" {
 }
 
 resource "aws_route53_record" "prometheus" {
-  zone_id = "Z09059901XRPHNYMGLMJ4"
+  zone_id = "Z082480628W9T5FTT67ES"
   name    = "prometheus"
   type    = "A"
   ttl     = 30
