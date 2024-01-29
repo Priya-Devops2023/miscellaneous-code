@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "d77-terraform"
+    bucket = "s3-practice-devops"
     key    = "misc/prometheus/terraform.tfstate"
     region = "us-east-1"
 
